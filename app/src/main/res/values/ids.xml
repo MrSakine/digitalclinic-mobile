@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mail_input" type="id" />
+    <item name="mail_input_text_error" type="id" />
+    <item name="pass_input" type="id" />
+    <item name="pass_input_text_error" type="id" />
+    <item name="button_login" type="id" />
+    <item name="logout_button" type="id" />
+    <item name="add_spe_menu" type="id" />
+    <item name="add_menu" type="id" />
+    <item name="search_menu" type="id" />
+    <item name="setting_menu" type="id" />
+    <item name="logout_menu" type="id" />
+    <item name="spe_add_menu" type="id" />
+    <item name="spe_search_menu" type="id" />
+    <item name="userlist_icon" type="id" />
+    <item name="patient_list_icon" type="id" />
+    <item name="userlist_text" type="id" />
+    <item name="patient_list_text" type="id" />
+    <item name="userlist_see" type="id" />
+    <item name="patient_list_see" type="id" />
+    <item name="userlist_delete" type="id" />
+    <item name="patient_list_delete" type="id" />
+    <item name="listview_user" type="id" />
+    <item name="no_med" type="id" />
+    <item name="no_user_found" type="id" />
+    <item name="add_med_info" type="id" />
+    <item name="add_med_button" type="id" />
+    <item name="add_med_info_scroll" type="id" />
+    <item name="med_info_name" type="id"/>
+    <item name="pat_info_name" type="id"/>
+    <item name="med_info_name2" type="id"/>
+    <item name="med_info_name_error" type="id"/>
+    <item name="med_info_surname" type="id"/>
+    <item name="pat_info_surname" type="id"/>
+    <item name="med_info_surname2" type="id"/>
+    <item name="med_info_surname_error" type="id"/>
+    <item name="med_info_genre" type="id"/>
+    <item name="pat_info_genre" type="id"/>
+    <item name="med_info_genre2" type="id"/>
+    <item name="med_info_dob" type="id"/>
+    <item name="pat_info_dob" type="id"/>
+    <item name="med_info_dob2" type="id"/>
+    <item name="med_info_dob_error" type="id"/>
+    <item name="med_info_dob_image" type="id" />
+    <item name="med_info_adresse" type="id"/>
+    <item name="pat_info_adresse" type="id"/>
+    <item name="med_info_adresse2" type="id"/>
+    <item name="med_info_adresse_error" type="id"/>
+    <item name="med_info_tel" type="id"/>
+    <item name="pat_info_tel" type="id"/>
+    <item name="med_info_tel2" type="id"/>
+    <item name="med_info_tel_error" type="id"/>
+    <item name="med_info_mail" type="id"/>
+    <item name="pat_info_mail" type="id"/>
+    <item name="med_info_mail2" type="id"/>
+    <item name="med_info_mail_error" type="id"/>
+    <item name="med_info_new_password_layout" type="id" />
+    <item name="med_info_new_password_icon" type="id" />
+    <item name="med_info_new_password_icon_close" type="id" />
+    <item name="med_info_new_password_input" type="id" />
+    <item name="med_info_new_password_button" type="id" />
+    <item name="med_info_new_password_error_text" type="id" />
+    <item name="med_info_new_password_dialog_pass1" type="id" />
+    <item name="med_info_new_password_dialog_pass2" type="id" />
+    <item name="med_info_new_password_dialog_copy_icon" type="id" />
+    <item name="med_info_new_password_dialog_button" type="id" />
+    <item name="med_info_hop" type="id"/>
+    <item name="med_info_hop2" type="id"/>
+    <item name="med_info_hop_error" type="id"/>
+    <item name="med_info_specialite" type="id"/>
+    <item name="med_info_specialite2" type="id"/>
+    <item name="med_info_specialite_error" type="id"/>
+    <item name="med_info_specialite_listview" type="id"/>
+    <item name="med_info_specialite_button" type="id" />
+    <item name="med_info_specialite_icon" type="id" />
+    <item name="med_info_specialite_text" type="id" />
+    <item name="med_info_specialite_text_error" type="id" />
+    <item name="med_info_close_btn" type="id"/>
+    <item name="pat_info_close_btn" type="id"/>
+    <item name="med_search_listview" type="id" />
+    <item name="med_search_edittext" type="id" />
+    <item name="no_med_found_layout" type="id" />
+    <item name="del_med_text" type="id" />
+    <item name="del_spe_text" type="id" />
+    <item name="del_med_button_yes" type="id" />
+    <item name="del_spe_button_yes" type="id" />
+    <item name="del_med_button_nope" type="id" />
+    <item name="del_spe_button_nope" type="id" />
+    <item name="genre_adapter" type="id" />
+    <item name="genre_man_image" type="id" />
+    <item name="genre_woman_image" type="id" />
+    <item name="med_detail_email" type="id" />
+    <item name="med_detail_password" type="id" />
+    <item name="med_detail_button_ok" type="id" />
+    <item name="med_detail_copy_icon" type="id" />
+    <item name="meds" type="id" />
+    <item name="patients" type="id" />
+    <item name="bottom_nav" type="id" />
+    <item name="refresh_layout" type="id" />
+    <item name="success_image_anim" type="id" />
+    <item name="success_image_password_anim" type="id" />
+    <item name="spe_list_icon" type="id" />
+    <item name="spe_list_text" type="id" />
+    <item name="spe_list_see" type="id" />
+    <item name="spe_list_edit" type="id" />
+    <item name="spe_list_button" type="id" />
+    <item name="spe_list_adapter" type="id" />
+    <item name="spe_list_textview" type="id" />
+    <item name="spe_list_refresh" type="id" />
+    <item name="spe_list_info_nom" type="id" />
+    <item name="spe_list_info_type" type="id" />
+    <item name="spe_list_info_prix" type="id" />
+    <item name="spe_list_info_desc" type="id" />
+    <item name="add_new_spe_layout" type="id" />
+    <item name="add_new_spe_desc_layout" type="id" />
+    <item name="add_new_spe_type_layout" type="id" />
+    <item name="add_new_spe_prix_layout" type="id" />
+    <item name="add_new_spe_input" type="id" />
+    <item name="add_new_spe_desc_input" type="id" />
+    <item name="add_new_spe_type_input" type="id" />
+    <item name="add_new_spe_prix_input" type="id" />
+    <item name="add_new_spe_button" type="id" />
+    <item name="spe_dialog_title" type="id" />
+    <item name="spe_dialog_content" type="id" />
+</resources>

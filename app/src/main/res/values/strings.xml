@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Digital Clinic</string>
+    <string name="med">Medecins</string>
+    <string name="patients">Patients</string>
+    <string name="spes">Spécialités</string>
+    <string name="desc_spe">Description</string>
+    <string name="type_spe">Type</string>
+    <string name="prix_spe">Prix</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="login">Valider</string>
+    <string name="copy">Copier</string>
+    <string name="search">Recherche…</string>
+    <string name="copy_done">Identifiants copiés avec succès</string>
+    <string name="info">Information</string>
+    <string name="sure">
+        <u>Êtes-vous sûr ?</u>
+    </string>
+    <string name="supp_med">Voulez-vous vraiment supprimer le medecin %1$s?</string>
+    <string name="supp_pat">Voulez-vous vraiment supprimer le patient %1$s?</string>
+    <string name="supp_spe">Voulez-vous vraiment supprimer la spécialité %1$s?</string>
+    <string name="yes">Oui</string>
+    <string name="nope">Non</string>
+    <string name="deconnexion">Se déconnecter</string>
+    <string name="add_spe">Gestion des spécialités</string>
+    <string name="mail_hint">Adresse mail</string>
+    <string name="spe_hint">Spécialité</string>
+    <string name="mail_error">Vérifier votre email</string>
+    <string name="spe_error">Vérifier la valeur de votre spécialité</string>
+    <string name="pass_hint">Mot de passe</string>
+    <string name="pass_error">Vérifier votre mot de passe</string>
+    <string name="name_hint">Nom</string>
+    <string name="name_hint_error">Verifier la valeur du nom</string>
+    <string name="surname_hint">Prenom</string>
+    <string name="surname_hint_error">Verifier la valeur du prenom</string>
+    <string name="adresse_hint">Adresse</string>
+    <string name="adresse_hint_error">Verifier la valeur de l\'adresse</string>
+    <string name="tel_hint">Numéro de téléphone</string>
+    <string name="tel_hint_error">Verifier la valeur du numéro de téléphone</string>
+    <string name="email_hint">Adresse mail</string>
+    <string name="email_hint_error">Verifier la valeur de l\'adresse mail</string>
+    <string name="hopital_hint">Hopital</string>
+    <string name="hopital_hint_error">Verifier la valeur de l\'hopital</string>
+    <string name="specialite_hint">Cliquer sur l\'icone pour choisir le(s) spécialité(s)</string>
+    <string name="specialite_hint_error">Veuillez choisir au moins une spécialité</string>
+    <string name="logo">LOGO</string>
+    <string name="user">USER</string>
+    <string name="genre_helper">Choisissez le genre</string>
+    <string name="date_helper">Date de naissance</string>
+    <string name="date_helper_text_error">Veuillez choisir une date valide</string>
+    <string name="date_helper_text_error2">Verifier la valeur de la date</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="del_med">Suppression d\'un medecin</string>
+    <string name="del_pat">Suppression d\'un patient</string>
+    <string name="del_spe">Suppression d\'une spécialité</string>
+    <string name="add_new_spe">Ajout d\'une spécialité</string>
+    <string name="edit_new_spe">Modification d\'une spécialité</string>
+    <string name="parametre">Parametre</string>
+    <string name="login_error">Email ou mot de passe incorrectes</string>
+    <string name="logout_message">Vous avez été déconnecté avec succès</string>
+    <string name="no_med">Aucun médecin n\'a encore été créé</string>
+    <string name="no_pat">Pas de patients inscrits</string>
+    <string name="no_spe">Pas de spécialités disponibles</string>
+    <string name="med_detail">
+        <u>Détails du médecin</u>
+    </string>
+    <string name="spe_infos">
+        <u>Information</u>
+    </string>
+    <string name="pat_detail">
+        <u>Détails du patient</u>
+    </string>
+    <string name="speciality_list">Liste des spécialités</string>
+    <string name="add_med">Ajout d\'un medecin</string>
+    <string name="search_med">Recherche d\'un medecin</string>
+    <string name="close">Fermer</string>
+    <string name="voir">Voir</string>
+    <string name="delete">Supprimer</string>
+    <string name="name">Nom :</string>
+    <string name="type">Type :</string>
+    <string name="description">Description :</string>
+    <string name="prix">Prix :</string>
+    <string name="surname">Prenom :</string>
+    <string name="genre">Genre :</string>
+    <string name="genre2">Genre</string>
+    <string name="dob">Date de naissance :</string>
+    <string name="adresse">Adresse :</string>
+    <string name="tel">Téléphone :</string>
+    <string name="email">Adresse mail :</string>
+    <string name="password">Mot de passe :</string>
+    <string name="hopital">Hopital :</string>
+    <string name="specialite">Spécialité :</string>
+    <string name="specialite2">Spécialité</string>
+    <string name="specialite_text_err">Vous devez choisir au moins une spécialité</string>
+    <string name="med_dentiste">Dentiste</string>
+    <string name="med_gen">Medecin généraliste</string>
+    <string name="med_gastro">Gastro-enterologue</string>
+    <string name="med_derma">Dermatologue</string>
+    <string name="validation">Validation en cours…</string>
+    <string name="detail_compte">Détails du compte</string>
+    <string name="detail_password">Détail du mot de passe</string>
+    <string name="new_compte">Nouveau médecin créé avec succès</string>
+    <string name="pass_edited">Mot de passe modifié avec succès</string>
+    <string name="old_pass">Ancien mot de passe :</string>
+    <string name="new_pass">Nouveau mot de passe :</string>
+    <string name="nb">*</string>
+    <string name="give_med">Donner ses informations au medecin pour la connexion</string>
+    <string name="edit_pass">Pour modifier le mot de passe</string>
+    <string name="no_med_found">Aucun medecin n\'a été trouvé</string>
+    <string name="no_pat_found">Aucun patient n\'a été trouvé</string>
+    <string name="no_spe_found">Aucune specialite n\'a été trouvée</string>
+    <string name="spe_info">Cliquer sur la valeur de la spécialité pour la modifier</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@drawable/border3"
+        android:padding="2dp"
+        tools:context=".specialites.AddSpeActivity">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/add_new_spe_layout"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    app:helperText="Exemple: Dentiste"
+                    app:hintTextColor="@android:color/white"
+                    app:helperTextTextColor="@android:color/holo_blue_bright"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="@android:color/holo_blue_bright"
+                    app:errorEnabled="true"
+                    android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/add_new_spe_input"
+                        android:hint="@string/spe_hint"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18sp"
+                        android:inputType="textCapSentences"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/add_new_spe_type_layout"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    app:helperText="Exemple: Dentaire"
+                    app:hintTextColor="@android:color/white"
+                    app:helperTextTextColor="@android:color/holo_blue_bright"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="@android:color/holo_blue_bright"
+                    app:errorEnabled="true"
+                    android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/add_new_spe_type_input"
+                        android:hint="@string/type_spe"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18sp"
+                        android:inputType="textCapSentences"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/add_new_spe_prix_layout"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    app:helperText="Exemple: 10000"
+                    app:hintTextColor="@android:color/white"
+                    app:helperTextTextColor="@android:color/holo_blue_bright"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="@android:color/holo_blue_bright"
+                    app:errorEnabled="true"
+                    android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/add_new_spe_prix_input"
+                        android:hint="@string/prix_spe"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18sp"
+                        android:inputType="numberDecimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                        tools:ignore="NestedScrolling">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/add_new_spe_desc_layout"
+                            android:layout_width="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="20dp"
+                            app:helperText="domaine de la spécialité"
+                            app:helperTextTextColor="@android:color/holo_blue_bright"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            app:boxStrokeColor="@android:color/holo_blue_bright"
+                            app:errorEnabled="true"
+                            android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/add_new_spe_desc_input"
+                                android:hint="@string/desc_spe"
+                                android:textSize="18sp"
+                                android:inputType="textMultiLine"
+                                android:layout_width="match_parent"
+                                android:scrollHorizontally="false"
+                                android:layout_height="wrap_content"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+            android:id="@+id/add_new_spe_button"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:text="@string/login"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

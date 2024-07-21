@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:elevation="3dp"
+              tools:ignore="UnusedAttribute">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView
+                    android:id="@+id/userlist_icon"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="30dp"
+                    android:backgroundTint="@android:color/holo_blue_bright"
+                    app:tint="@android:color/holo_blue_bright"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/user"/>
+            <TextView
+                    android:id="@+id/userlist_text"
+                    android:layout_marginEnd="25dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:id="@+id/userlist_see"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/visibility"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="SmallSp"
+                    android:contentDescription="@string/logo"/>
+            <ImageView
+                    android:id="@+id/userlist_delete"
+                    android:src="@drawable/delete"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/logo"
+                    tools:ignore="SmallSp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

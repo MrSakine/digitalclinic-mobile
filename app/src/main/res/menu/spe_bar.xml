@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/spe_add_menu"
+            android:title="@string/ajouter"
+            app:showAsAction="always"
+            android:icon="@drawable/add_circle"
+            tools:ignore="UnusedAttribute"/>
+    <item
+            android:id="@+id/spe_search_menu"
+            android:title="@string/rechercher"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/search"
+            tools:ignore="UnusedAttribute"/>
+</menu>

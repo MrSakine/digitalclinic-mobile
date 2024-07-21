@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/border_white"
+        tools:context=".specialites.ChooseSpeActivity">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ListView
+                    android:id="@+id/med_info_specialite_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" tools:ignore="NestedScrolling"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+            android:id="@+id/med_info_specialite_text_error"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/med_info_specialite_button"
+            android:layout_marginTop="10dp"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
